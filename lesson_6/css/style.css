@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+ [class*="image"] {
+    max-width: 100%;
+ }
+[class*="__container"] {
+    max-width: 810px;
+    margin: 0px auto;
+
+}
+body {
+	font-family: "Lato";
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+
+
+.header{
+	margin: 69px 0px 92px 0px;
+}
+
+.header__container  {
+    font-weight: 900;
+    font-size: 46px;
+	 line-height: 130%;
+	 color: #1E212C;
+
+}
+.title {
+}
+
+.image {
+    margin: 0px 0px 60px 0px;
+}
+.title__container-bold {
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 0px 0px 24px 0px;
+	 color: #1E212C;
+
+}
+.title__container-text p{
+padding: 0px 0px 35px 0px;
+}
+
+.title__container-text {
+    margin: 0px 0px 48px 0px;
+	
+}
+.text {
+    margin: 0px 0px 48px 0px;
+}
+.text__container {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+	 color: #1E212C;
+
+	 background: url('../img/Quotation/braces.png') 0 0  no-repeat;
+    padding: 0px 0px 0px 58px;
+}
+.desc {
+	margin: 44px 0px;
+
+}
+.desc__container {
+
+}
+.desc__container-top {
+	
+	margin-bottom: 24px;
+}
+.desc__container-list li {
+
+	padding: 0px 0px 4px 26px;
+background: url(../img/check.png) 0 5px no-repeat;
+}
+.desc__container-bottom {
+margin: 24px 0px;
+
+} 
+.footer__container {
+font-size: 28px;
+}
+
+.footer__container:hover{
+	color: rgb(5, 110, 14);
+	text-shadow: 2px 2px 10px #000;
+
+	font-weight: 900;
+}
+
+
+/* ======================================== */
+/* ======================================== */
+/* ======================================== */
+
+
+.main__container {
+	
+}
+.main__container-block1 {
+	margin: 25px 0;
+	background: rgb(230, 99, 99);
+	min-height: 100px;
+	text-align: center;
+	border-radius: 30px;
+	border: 2px solid black;
+}
+
+
+
+
+
+.main__container-block2 {
+	background: rgb(202, 209, 79);
+	margin: 25px 0;
+	border: 2px dotted  black;
+opacity: 0.5;
+visibility: hidden;
+
+}
+
+.main__container-block3 {
+	background: rgb(79, 105, 209);
+	margin: 25px 0;
+display: none;
+}
+
+.main__container-block4 {
+	background: rgb(107, 209, 79);
+	margin: 25px 0;
+	border: 8px double  black;
+
+}
