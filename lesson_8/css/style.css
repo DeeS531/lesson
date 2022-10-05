@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+body {
+	font-family: lato, serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #424551;
+}
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+[class*="__block"] {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.header {
+	margin-bottom: 120px;
+}
+.header__img {
+	padding: 35px 0px 0px 345px;
+	max-width: 100%;
+}
+.main {
+}
+.main__container {
+}
+.desc__block {
+	margin-bottom: 180px;
+}
+.desc__tiile {
+	line-height: 130%;
+	font-size: 46px;
+	font-weight: 900;
+	margin-bottom: 40px;
+	color: #1e212c;
+}
+.desc__text {
+}
+.desc__text p {
+	line-height: 160%;
+	margin-bottom: 48px;
+}
+.desc__text h3 {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	margin-bottom: 24px;
+	color: #1e212c;
+}
+.desc__list {
+}
+.desc__list li {
+	line-height: 160%;
+}
+.desc__list li:not(:last-child) {
+	margin-bottom: 4px;
+}
+.desc__list li::before {
+	background: url("../img/check.png") 0 0px no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.desc__list li:hover::before {
+	transition: all 0.5s ease 0s;
+	transform: rotate(360deg);
+}
+
+.tiile {
+	margin-bottom: 32px;
+}
+.tiile__subject {
+	margin-bottom: 8px;
+}
+.tiile__subject p {
+	font-weight: 700;
+
+	line-height: 150%;
+	color: #1e212c;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.tiile__tiile {
+	margin-bottom: 16px;
+}
+.tiile__tiile h2 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1e212c;
+}
+.tiile__headline {
+}
+.tiile__headline p {
+	font-size: 20px;
+	line-height: 150%;
+	color: #787a80;
+}
+.wrap__block {
+	margin-bottom: 150px;
+}
+.wrap__list {
+	margin-bottom: 32px;
+}
+.wrap__list li:not(:last-child) {
+	margin-bottom: 4px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 160%;
+}
+.wrap__list li:first-child::before {
+	background: url(../img/Star.svg) 0 0 no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 8px;
+}
+.wrap__list li:nth-child(2)::before {
+	background: url(../img/Play.svg) 0 0 no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 8px;
+}
+.wrap__list li:last-child::before {
+	background: url(../img/Profile.svg) 0 0 no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 8px;
+}
+.wrap__text {
+}
+.wrap__text p {
+	line-height: 160%;
+	color: #424551;
+}
+.lift {
+	width: 1500px;
+	height: 20px;
+	background: #000;
+	margin-bottom: 100px;
+	border-radius: 15px;
+	color: white;
+	text-align: center;
+	font-weight: 800;
+}
+
+.footer {
+}
+.list__block {
+	margin-bottom: 150px;
+}
+
+.homewor__block {
+	margin-bottom: 100px;
+}
+
+.hover {
+	background: rgb(128, 214, 107);
+	border: 2px solid black;
+	color: white;
+	font-weight: 800;
+	width: 145px;
+	margin-bottom: 45px;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 35px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.hover:hover {
+	background: rgb(54, 128, 196);
+	margin-left: 145px;
+}
+.btn {
+	margin-bottom: 45px;
+}
+.active__bottom {
+	background: rgb(128, 214, 107);
+	border: 2px solid black;
+	color: white;
+	font-weight: 800;
+	width: 145px;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 35px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	box-shadow: 0px 6px 5px rgb(42, 102, 47);
+}
+.active__bottom:hover {
+	background: rgb(14, 249, 22);
+	color: #000;
+}
+.active__bottom:active {
+	box-shadow: 0px 0px 0px rgb(42, 102, 47);
+	margin-top: 6px;
+	background: rgb(128, 214, 107);
+	color: white;
+}
+
+.visited {
+	margin-bottom: 50px;
+}
+.visited a:visited {
+	color: red;
+}
+ul {
+	margin-left: 20px;
+	margin-bottom: 50px;
+}
+ul ul {
+	display: none;
+}
+ul li:hover ul {
+	display: block;
+}
+.link {
+	display: inline-block;
+	margin-bottom: 50px;
+}
+.link:focus {
+	outline: 1px dashed rgb(25, 0, 255);
+}
+.vlog {
+	padding: 15px;
+	background: rgb(230, 112, 112);
+	font-weight: 700;
+	letter-spacing: 2px;
+	line-height: 120%;
+	color: white;
+	display: none;
+}
+
+.vlog:target {
+	display: block;
+}
+
