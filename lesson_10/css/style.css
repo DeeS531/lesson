@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+body{
+
+}
+
+[class*="__container"] {
+	max-width: 810px;
+	margin: 0 auto;}
+
+.main {
+	font-family: 'Lato';
+	font-weight: 400;
+	color: #424551;
+	font-size: 16px;
+
+}
+.main__container {
+
+}
+.main__title{
+	margin-bottom: 90px;
+
+}
+.main__title h1{
+	font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+color: #1E212C;
+}
+.main__imege {
+	margin-bottom: 60px;
+}
+.main__text-bold {
+margin-bottom: 24px;
+}
+.main__text-bold p {
+	font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+}
+.main__text {
+margin-bottom: 75px;
+}
+
+.main__text p {
+
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+}
+.main__text p:not(:last-child){
+	margin-bottom: 48px;
+}
+
+blockquote{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	background: url(../img/Quotation/braces.svg) 0 0 no-repeat;
+
+
+
+	padding-left: 58px;
+	margin-bottom: 48px;
+}
+
+ul{
+	margin-bottom: 24px;
+
+}
+ul li:not(:last-child){
+	margin-bottom: 4px;
+
+}
+ul li{
+	line-height: 160%;
+padding-left: 32px;
+}
+/* Для пункта li padding-left: ширина іконки + margin-right який у before = 32px;
+Для before негативний margin-left який дорівнює padding-left у пункта li = -32px  */
+
+ul li::before{
+	content: '';
+background: url(../img/check.svg) 0 5px no-repeat;
+display: inline-block;
+width: 16px;
+height: 16px;
+margin-left: -32px;
+margin-right: 16px;
+min-height: 20px;
+
+}
+
+a{
+}
+.homework:hover{
+	color: red;
+}
+.homework::after{
+
+}
+
+
+
+
+
+
+
+
+
+
+
