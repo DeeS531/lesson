@@ -1,0 +1,143 @@
+[class*="__container"] {
+	max-width: 3000px;
+	margin: 0 auto;
+	height: 300px;
+}
+
+.wrapper {
+	position: relative;
+	/* overflow: hidden;  */
+	min-width: 100%;
+}
+.cars__fon {
+	position: relative;
+}
+.cars__fon-1 {
+	opacity: 0.5;
+	background: rgb(212, 219, 223);
+	width: 4700px;
+	height: 620px;
+	position: relative;
+}
+.cars__fon-2 {
+	background: rgb(224, 222, 87);
+	height: 520px;
+	width: 4700px;
+	position: absolute;
+	top: 500px;
+}
+.cars__fon-3 {
+}
+.cars__fon-3--road {
+	background: rgb(58, 56, 41);
+	height: 320px;
+	width: 4700px;
+	position: absolute;
+	top: 800px;
+}
+.cars__fon-3--marking {
+	width: 4700px;
+	height: 10px;
+	background: rgb(243, 243, 243);
+	position: absolute;
+	top: 160px;
+}
+.cars__fon-3--watter img {
+	position: absolute;
+	top: -1110px;
+	left: 0px;
+	width: 3200px;
+	z-index: 5;
+	/* background: url(../img/watter.svg) 500px 500px / cover  no-repeat;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 5; */
+}
+
+.cars__fon-4 {
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	background: rgb(225, 227, 82);
+	position: absolute;
+	top: 50px;
+	left: 4000px;
+}
+.cars__fon-4::after {
+	content: "";
+	width: 600px;
+	height: 300px;
+	border-radius: 50%;
+	background: rgb(87, 121, 255);
+	position: absolute;
+	top: -10px;
+	left: -3750px;
+}
+.cars__fon-4 p {
+	position: absolute;
+	width: 250px;
+	top: 60px;
+	left: -3550px;
+	z-index: 2;
+	font-weight: 900;
+	font-size: 60px;
+	color: rgb(202, 220, 236);
+}
+
+.cars__fon-5 p {
+	position: absolute;
+	z-index: 2;
+	left: 3300px;
+	width: 550px;
+	font-weight: 700;
+	font-size: 60px;
+	color: rgb(17, 62, 101);
+	top: 550px;
+}
+.cars__fon-5 img {
+	width: 465px;
+	position: relative;
+	top: -120px;
+	left: 2700px;
+}
+
+.cars__body {
+	position: absolute;
+}
+.cars__body-wheel {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	background: #000;
+	border-radius: 50%;
+	top: 1000px;
+	left: 135px;
+}
+.cars__body-wheel--2 {
+	top: 1000px;
+	left: 605px;
+}
+.cars__body-door {
+}
+.cars__body-frame {
+	position: fixed;
+	top: 900px;
+	left: 135px;
+	width: 600px;
+	height: 100px;
+	background: rgb(250, 3, 3);
+}
+
+/
+
+.cars__body-gomer{
+	position: absolute;
+}
+
+.cars__body-gomer img{
+	position: fixed;
+	top: 750px;
+	left: 135px;
+	width: 600px;
+}
