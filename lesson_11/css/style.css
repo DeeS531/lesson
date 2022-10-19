@@ -129,12 +129,6 @@ z-index: 5; */
 	background: rgb(250, 3, 3);
 }
 
-/
-
-.cars__body-gomer{
-	position: absolute;
-}
-
 .cars__body-gomer img{
 	position: fixed;
 	top: 750px;
