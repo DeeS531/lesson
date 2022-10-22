@@ -1,0 +1,211 @@
+.wrapper {
+	position: relative;
+	overflow: hidden;
+	min-width: 100%;
+}
+
+body {
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 20px;
+	background: rgb(156, 147, 147);
+}
+h1 {
+	margin: 30px 0px 50px 30px;
+	font-size: 40px;
+}
+.section {
+	max-width: 600px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.transform__2d {
+	padding: 30px;
+	position: relative;
+}
+.section__block:not(:last-child) {
+	margin-bottom: 100px;
+}
+
+.square {
+	max-width: 150px;
+	height: 150px;
+	text-align: center;
+	text-transform: uppercase;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 1px;
+	line-height: 8;
+	margin: 20px 0px;
+	border: 1px solid rgba(0, 0, 0, 0.321);
+	border-radius: 15%;
+	transition: all 0.6s ease 0s;
+}
+.section__block {
+}
+.section__translate {
+	background: rgb(163, 181, 159);
+}
+.section__translate:hover {
+	transform: translate(20px, 20px);
+}
+
+.section__Scale {
+	background: rgb(159, 174, 181);
+}
+.section__Scale:hover {
+	transform: scale(1.5);
+}
+.section__Scale:hover::after {
+	content: "Click";
+	position: relative;
+	top: 50px;
+}
+.section__Scale:active {
+	transform: scale(0.7, 0.4);
+}
+.section__Rotate {
+	background: rgb(181, 159, 179);
+}
+.section__Rotate:hover {
+	transform: scale(3) rotate(720deg);
+}
+
+.section__Skew {
+	background: rgb(159, 181, 162);
+}
+
+.section__Skew:hover {
+	transform: skew(15deg, 15deg);
+}
+
+/* Значение А изменяет масштаб по горизонтали. 
+Значение C деформирует (сдвигает) стороны элемента по оси Y
+Значение B деформирует (сдвигает) стороны элемента по оси X
+Значение D изменяет масштаб по вертикали.
+Значение X смещает элемент по оси X
+Значение Y смещает элемент по оси Y */
+.section__Matrix {
+	background: rgb(163, 181, 159);
+}
+.section__Matrix:hover {
+	transform: matrix(1.5, 0.5, -1, 1.5, 40, 20);
+}
+
+.section__transform-origin {
+	background: rgb(163, 181, 159);
+	/* border-radius: 0; */
+}
+
+.section__transform-origin:hover {
+	transform-origin: 25px 25px;
+	transform: rotate(45deg);
+}
+
+.square p {
+	font-size: 16px;
+	position: relative;
+	top: 45%;
+	max-width: 150px;
+	line-height: 1;
+}
+.section__block {
+	perspective: 400px;
+	perspective-origin: 200px -100px;
+}
+.section__Perspective {
+	background: rgb(125, 179, 161);
+}
+
+.section__Perspective:hover {
+	transform: rotateX(60deg);
+}
+
+.transform__3d {
+	padding: 30px;
+	margin-bottom: 100px;
+}
+
+.section__transform-style {
+	background: rgb(159, 160, 181);
+}
+.class {
+	width: 150px;
+	height: 150px;
+	background-color: rgba(233, 245, 243, 0.2);
+	perspective: 400px;
+	transform-style: preserve-3d;
+	border-radius: 20%;
+}
+.section__transform-style:hover {
+	transform: rotateY(180deg);
+}
+.section__backface-visibility {
+	background: rgb(181, 159, 159);
+}
+.section__backface-visibility:hover {
+	transform: rotatey(180deg);
+	visibility: hidden;
+}
+
+.auto {
+	margin-bottom: 100px;
+	/* transition:  all 0.5s ease 0s; */
+	z-index: 1;
+}
+.auto__block-1 {
+	width: 400px;
+	height: 150px;
+	background: rgb(248, 41, 41);
+	border-radius: 50% 50% 0% 0%;
+}
+
+.auto__block-2 {
+	width: 400px;
+	height: 5px;
+	background: #000;
+	transform: translate(0px, -80px);
+}
+.auto__block-2::after{
+	content: '';
+	position: absolute;
+	width: 5px;
+	height: 80px;
+	background: #000;
+	transform: translate(200px, 0px);
+
+
+}
+
+.wheel{
+	transition:  all 0.5s ease 0s; 
+	width: 80px;
+	height: 80px;
+	background: rgb(12, 0, 0);
+	border-radius: 50%;
+	border: 8px dashed rgb(255, 255, 255);
+	transition:  all 5.5s linear 0s; 
+
+}
+.wheel--left {
+	transform: translate(20px, -30px);
+}
+.wheel--right{
+	transform: translate(280px, -110px);
+}
+
+ .wheel:hover{
+	transform: translate(20px, -30px) rotate(1360deg);
+}
+.wheel--right:hover{
+	transform: translate(280px, -110px) rotate(1360deg);
+}
+
+.auto__block-4 {
+	width: 600px;
+	height: 200px;
+	background: rgb(65, 76, 70);
+	transform: translate(-100px,-250px);
+	position: relative;
+	z-index: -1;
+} 
