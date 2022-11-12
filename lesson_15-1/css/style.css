@@ -600,6 +600,8 @@ body {
 	cursor: pointer;
 	display: inline-flex;
 	gap: 12px;
+	line-height: 160%;
+	color: #424551;
 }
 .checkbox__lebel::before {
 	content: "";
