@@ -599,7 +599,6 @@ body {
 .checkbox__lebel {
 	cursor: pointer;
 	display: inline-flex;
-	align-items: top;
 	gap: 12px;
 }
 .checkbox__lebel::before {
