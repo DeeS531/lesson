@@ -496,10 +496,13 @@ body {
 	margin-bottom: 100px;
 }
 .form-block__media {
-	/* flex: 0 1 50%; */
+	flex: 0 1 30%;
 }
 .form-block__img {
-	max-width: 435px;
+	max-width:100%;
+
+	/* flex: 0 1 100%; */
+
 }
 .form-block__about {
 	max-width: 905px;
@@ -614,7 +617,10 @@ body {
 }
 
 .form-block__button {
-	min-width: 340px;
+	/* min-width: 340px; */
+	display: flex;
+	flex-grow: 1;
+	justify-content:center;
 }
 
 .form-block__radio {
