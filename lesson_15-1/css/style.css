@@ -432,8 +432,46 @@ body {
 }
 .page__who {
 	margin-bottom: 180px;
+	position: relative;
+
+
 }
 .who-block__container {
+	/* z-index: 2; */
+}
+
+
+.decor-who {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.decor-who__item {
+	position: absolute;
+
+}
+.decor-who__item--1 {
+	background: url('../img/decor/dots.svg') 0 0 no-repeat;
+	position: absolute;
+	width: 181.18px;
+	height: 132.74px;
+	left:-5.7%;
+	top:11%;
+opacity: 0.8;
+transform: rotate(52.46deg);
+}
+.decor-who__item--2 {
+	background: url('../img/decor/circles.svg') 0 0 no-repeat;
+	position: absolute;
+	width: 287px;
+	height: 287px;
+	right:-8.5%;
+	bottom: 0%;
+	
+
 }
 .who-content {
 	flex-wrap: wrap;
